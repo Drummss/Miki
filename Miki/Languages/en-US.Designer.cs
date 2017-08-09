@@ -88,11 +88,83 @@ namespace Miki.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You do not have enough mekos! You need {0} more mekos!.
+        /// </summary>
+        internal static string buymarriageslot_insufficient_mekos {
+            get {
+                return ResourceManager.GetString("buymarriageslot_insufficient_mekos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You successfully purchased a new marriage slot, you now have {0} slots!.
+        /// </summary>
+        internal static string buymarriageslot_success {
+            get {
+                return ResourceManager.GetString("buymarriageslot_success", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to I couldn&apos;t find any content for this pasta, please specify what you want to make..
         /// </summary>
         internal static string createpasta_error_no_content {
             get {
                 return ResourceManager.GetString("createpasta_error_no_content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} just gave {1} {2} mekos!.
+        /// </summary>
+        internal static string give_description {
+            get {
+                return ResourceManager.GetString("give_description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We couldn&apos;t parse your second argument into numbers! Please use `&gt;help give` to see how to use this command!.
+        /// </summary>
+        internal static string give_error_amount_unparsable {
+            get {
+                return ResourceManager.GetString("give_error_amount_unparsable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sorry, but I can only process 999.999 mekos per transaction!.
+        /// </summary>
+        internal static string give_error_max_mekos {
+            get {
+                return ResourceManager.GetString("give_error_max_mekos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You have to send at least 1 meko for this transaction to function..
+        /// </summary>
+        internal static string give_error_min_mekos {
+            get {
+                return ResourceManager.GetString("give_error_min_mekos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You didn&apos;t have both the amount you want to send and the user to send it to. Please fill them in like shown below!.
+        /// </summary>
+        internal static string give_error_no_arg {
+            get {
+                return ResourceManager.GetString("give_error_no_arg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please mention the person you want to give mekos to. Use `&gt;help give` to find out how to use it!.
+        /// </summary>
+        internal static string give_error_no_mention {
+            get {
+                return ResourceManager.GetString("give_error_no_mention", resourceCulture);
             }
         }
         
@@ -322,8 +394,12 @@ namespace Miki.Languages {
         }
         
         /// <summary>
+<<<<<<< HEAD
         ///   Looks up a localized string similar to You didn&apos;t include the amount bet! Correct usage: 
         ///&gt;blackjack &lt;amount&gt;.
+=======
+        ///   Looks up a localized string similar to You didn&apos;t include the amount bet! Correct usage: &gt;blackjack &lt;amount&gt;.
+>>>>>>> upstream/master
         /// </summary>
         internal static string miki_blackjack_no_arg {
             get {
@@ -441,7 +517,7 @@ namespace Miki.Languages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to NICK CAGE PICTURES.
+        ///   Looks up a localized string similar to Pictures of world&apos;s best .
         /// </summary>
         internal static string miki_command_description_cage {
             get {
@@ -1987,7 +2063,7 @@ namespace Miki.Languages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0]&apos;s Profile.
+        ///   Looks up a localized string similar to {0}&apos;s Profile.
         /// </summary>
         internal static string miki_module_accounts_profile_header {
             get {
@@ -3769,6 +3845,15 @@ namespace Miki.Languages {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You don&apos;t have any pastas on this page!.
+        /// </summary>
+        internal static string pasta_error_out_of_index {
+            get {
+                return ResourceManager.GetString("pasta_error_out_of_index", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to page {0} of {1}.
         /// </summary>
         internal static string pasta_page_index {
@@ -3796,11 +3881,113 @@ namespace Miki.Languages {
         }
         
         /// <summary>
+<<<<<<< HEAD
+=======
+        ///   Looks up a localized string similar to and.
+        /// </summary>
+        internal static string time_and {
+            get {
+                return ResourceManager.GetString("time_and", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to day.
+        /// </summary>
+        internal static string time_day {
+            get {
+                return ResourceManager.GetString("time_day", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to days.
+        /// </summary>
+        internal static string time_days {
+            get {
+                return ResourceManager.GetString("time_days", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to hour.
+        /// </summary>
+        internal static string time_hour {
+            get {
+                return ResourceManager.GetString("time_hour", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to hours.
+        /// </summary>
+        internal static string time_hours {
+            get {
+                return ResourceManager.GetString("time_hours", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to minute.
+        /// </summary>
+        internal static string time_minute {
+            get {
+                return ResourceManager.GetString("time_minute", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to minutes.
+        /// </summary>
+        internal static string time_minutes {
+            get {
+                return ResourceManager.GetString("time_minutes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to second.
+        /// </summary>
+        internal static string time_second {
+            get {
+                return ResourceManager.GetString("time_second", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to seconds.
+        /// </summary>
+        internal static string time_seconds {
+            get {
+                return ResourceManager.GetString("time_seconds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+>>>>>>> upstream/master
         ///   Looks up a localized string similar to Top pastas.
         /// </summary>
         internal static string toppasta_title {
             get {
                 return ResourceManager.GetString("toppasta_title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You do not have enough mekos to do this!.
+        /// </summary>
+        internal static string user_error_insufficient_mekos {
+            get {
+                return ResourceManager.GetString("user_error_insufficient_mekos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This user doesn&apos;t have a Miki account yet..
+        /// </summary>
+        internal static string user_error_no_account {
+            get {
+                return ResourceManager.GetString("user_error_no_account", resourceCulture);
             }
         }
     }
